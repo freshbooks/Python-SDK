@@ -4,7 +4,7 @@ import os.path
 
 long_description = open('README.rst').read() if os.path.isfile('README.rst') else 'A Python SDK for our WePay API'
 
-version_str = '%s.%s.%s' % (
+version_str = '%s.%s.%s-fb' % (
     wepay.VERSION[0],
     wepay.VERSION[1],
     wepay.VERSION[2]
