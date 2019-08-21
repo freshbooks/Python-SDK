@@ -3,8 +3,8 @@ import wepay
 import os.path
 
 long_description = (
-    open("README.rst").read()
-    if os.path.isfile("README.rst")
+    open("README.md").read()
+    if os.path.isfile("README.md")
     else "A Python SDK for our WePay API"
 )
 
@@ -16,10 +16,11 @@ setup(
     packages=["wepay"],
     description="A Python SDK for our WePay API.",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     author="WePay API Team",
     author_email="api@wepay.com",
     license="MIT License",
-    url="https://github.com/wepay/Python-SDK",
+    url="https://github.com/freshbooks/WePay-Python-SDK",
     platforms=["any"],
     classifiers=[
         "Development Status :: 4 - Beta",
