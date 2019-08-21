@@ -1,9 +1,11 @@
+.idea
 .pypirc
+*.egg-info/
 *.pyc
 *.swp
 *.tmp
 *~
 build
 dist
+env/
 MANIFEST
-.idea
